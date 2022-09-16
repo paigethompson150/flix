@@ -20,7 +20,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [ ] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
-![](https://github.com/paigethompson150/flix/simulation.gif)
+<img src="/simulation.gif" width=350><br>
 
 ### Notes
 This project gave me practice working with swift files and storyboards, as well using the third-party framework Alamofire to query data from an API. I also learned about cell recycling, and how to save memory using the tableview. I've noticed a lot of similarities to web development, but the syntax is completely new for me.
