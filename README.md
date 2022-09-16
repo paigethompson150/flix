@@ -9,21 +9,20 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 ## Flix Part 1
 
 ### User Stories
-`TODO://` In the **User Stories section below**, add an `x` in the `-[ ]` like this `- [x]` for any user story you complete. (🚫 Remove this paragraph after checking off completed user stories)
 
 #### REQUIRED (10pts)
-- [ ] (2pts) User sees an app icon on the home screen and a styled launch screen.
-- [ ] (5pts) User can view and scroll through a list of movies now playing in theaters.
-- [ ] (3pts) User can view the movie poster image for each movie.
+- [X] (2pts) User sees an app icon on the home screen and a styled launch screen.
+- [X] (5pts) User can view and scroll through a list of movies now playing in theaters.
+- [X] (3pts) User can view the movie poster image for each movie.
 
 #### BONUS
 - [ ] (2pt) User can view the app on various device sizes and orientations.
 - [ ] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
-
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+![](https://github.com/flix/simulation.gif)
 
 ### Notes
-Describe any challenges encountered while building the app.
+This project gave me practice working with swift files and storyboards, as well using the third-party framework Alamofire to query data from an API. I also learned about cell recycling, and how to save memory using the tableview. I've noticed a lot of similarities to web development, but the syntax is completely new for me.
+
+When I was nearly done creating the app, I started getting an error thrown that one of my UIImageViews had a value of 'null' when not allowed. I looked through all of my swift files and couldn't find the variable they were referring to anywhere - I was so confused why Swift was giving me an error for a variable that didn't even exist. I went to office hours for help and my TA was also unsure. It turned out to be painstakingly simple, which was that at some point in my storyboard I had accidentally created two imageViews that were directly layered on top of one another. From now on I won't focus so heavily on my swift files while debugging, but on my storyboard as well!
